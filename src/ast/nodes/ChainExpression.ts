@@ -1,7 +1,6 @@
 import type { DeoptimizableEntity } from '../DeoptimizableEntity';
 import type { HasEffectsContext } from '../ExecutionContext';
-import { SHARED_RECURSION_TRACKER } from '../utils/PathTracker';
-import { EMPTY_PATH } from '../utils/PathTracker';
+import { EMPTY_PATH, SHARED_RECURSION_TRACKER } from '../utils/PathTracker';
 import type CallExpression from './CallExpression';
 import type MemberExpression from './MemberExpression';
 import type * as NodeType from './NodeType';
